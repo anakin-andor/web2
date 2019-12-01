@@ -1,0 +1,4 @@
+ha majd felrakom tárhelyre...
+
+ugye át kell írni az adatbázishoz való kapcsolódásokat
+ezt ne feledjük el a felsofoku.php esetén, mert akkor nem fog mûködni az elérhetõségek menü!

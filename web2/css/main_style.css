@@ -1,0 +1,56 @@
+body {
+ background-image: url('images/darth.jpg');
+ color: #004d39;
+
+}
+
+header, footer {
+    padding: 0.5em; 
+    color: white;
+	background-image: url('images/darth_vader.jpg'); 
+    clear: left;
+}
+h1.header {
+    padding: 0;
+    margin: 0;
+}
+div#user {
+    float: right;
+}
+aside {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+section {
+    margin-left: 190px;
+	height: 450px;
+    border-left: 1px solid #00994d;
+    padding: 1em;
+}
+ul {
+    float:left;
+    width:100%; /* A menü az alatta levő szövegtől elválik, birtokolja a teljes vízszintes sávját. */
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    background-image: url('images/jedi.jpg');
+    background-color: #E1A597;
+}        
+a {
+    float:left;
+    width:6em; /* Fix szélességű gombok érhetők el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
+    text-decoration:none; /* Ne legyen aláhúzva a link. */
+    color: #5c5c3d;
+    background-color: #c2c2a3;
+    border-right:1px solid #5c5c3d;
+    
+    padding:0.2em 0.6em;
+   
+}
+a.selected{
+    background-color: #999966;
+}
+a:hover { background-color:#e0e0d1} /* Az egérkurzorra színváltással reagál a menüpont. */
+li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */

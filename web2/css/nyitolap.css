@@ -1,0 +1,22 @@
+div.doboz {
+    width: 500px;
+    margin-bottom: 10px;
+  }
+  div.dobozfej {
+    padding: 2px 5px;
+    border: 1px solid #666666;
+    background-color: #cccccc;
+  }
+  div.doboztorzs {
+    padding: 2px 5px;
+    border: 1px solid #666666;
+    border-top: 0;
+    background-color: #eeeeee;
+    height: 160px;
+    overflow: auto;
+  }
+
+
+
+
+  
